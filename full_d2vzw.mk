@@ -26,7 +26,7 @@ PRODUCT_PACKAGES := \
     Torch
 
 PRODUCT_COPY_FILES := \
-    device/samsung/d2vzw/apns-conf.xml:system/etc/apns-conf.xml
+    vendor/cm/prebuilt/common/etc/apns-conf-cdma.xml:system/etc/apns-conf.xml
 
 # KEXEC-specific options
 ifeq ($(USE_KEXEC),1)
